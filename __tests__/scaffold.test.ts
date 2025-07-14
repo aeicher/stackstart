@@ -167,7 +167,7 @@ describe('generateScaffold', () => {
       const mockGit = mockSimpleGit();
       expect(mockGit.init).toHaveBeenCalled();
       expect(mockGit.add).toHaveBeenCalledWith('.');
-      expect(mockGit.commit).toHaveBeenCalledWith('chore: initial commit via openai-internal-copilot');
+      expect(mockGit.commit).toHaveBeenCalledWith('chore: initial commit via stackstart');
     });
   });
 }); 

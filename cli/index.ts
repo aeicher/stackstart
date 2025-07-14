@@ -11,7 +11,7 @@ import pkg from '../package.json';
 const program = new Command();
 
 program
-  .name('openai-internal-copilot')
+  .name('stackstart')
   .description('Scaffold production-ready repositories in seconds')
   .version(pkg.version);
 

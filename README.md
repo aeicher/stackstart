@@ -4,7 +4,7 @@ Welcome! Tired of spending hours setting up new projects with the same boilerpla
 
 ## Why I built this
 
-After setting up my umpteenth Express server with the exact same Jest config, ESLint rules, and GitHub Actions workflow, I wanted a simpler way. So, I created StackStart to handle all the boring setup stuff so you can focus on building cool things.
+I created StackStart to handle all the setup stuff so you can focus on building.
 
 ## What makes it awesome
 
@@ -32,31 +32,31 @@ npx . create my-awesome-project
 ### The basics
 ```bash
 # Spin up a Node.js project
-openai-internal-copilot create my-node-app
+stackstart create my-node-app
 
 # React is more your speed?
-openai-internal-copilot create my-react-app --template react
+stackstart create my-react-app --template react
 
 # Python developer?
-openai-internal-copilot create my-python-app --template python
+stackstart create my-python-app --template python
 
 # Want the whole enchilada?
-openai-internal-copilot create my-fullstack-app --template full-stack
+stackstart create my-fullstack-app --template full-stack
 ```
 
 ### Getting fancy
 ```bash
 # Let AI help you build something custom
-openai-internal-copilot create my-app --ai-enhanced
+stackstart create my-app --ai-enhanced
 
 # Deploy to AWS from day one
-openai-internal-copilot create my-app --deploy-target aws
+stackstart create my-app --deploy-target aws
 
 # Include a working demo (great for showing off)
-openai-internal-copilot create my-app --with-demo
+stackstart create my-app --with-demo
 
 # Go all out
-openai-internal-copilot create my-app --template react --ai-enhanced --deploy-target vercel --with-demo
+stackstart create my-app --template react --ai-enhanced --deploy-target vercel --with-demo
 ```
 
 ## What you get
@@ -118,7 +118,3 @@ npm test
 ## License
 
 MIT - Use it, modify it, make it better.
-
----
-
-*Built with ❤️. If this tool saves you time, consider starring the repo!*

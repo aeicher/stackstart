@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "CLI tool that scaffolds production-ready repositories with full automation. (StackStart)",
   "bin": {
-    "openai-internal-copilot": "dist/cli/index.js"
+    "stackstart": "dist/cli/index.js"
   },
   "scripts": {
     "build": "tsc -p .",

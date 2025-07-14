@@ -4,8 +4,8 @@
   "description": "Full-stack application with Node.js backend and React frontend",
   "scripts": {
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
-    "dev:server": "cd server && npm run dev",
-    "dev:client": "cd client && npm start",
+    "dev:server": "cd server && npm start",
+    "dev:client": "cd client && npm run dev",
     "build": "npm run build:server && npm run build:client",
     "build:server": "cd server && npm run build",
     "build:client": "cd client && npm run build",

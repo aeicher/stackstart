@@ -1,3 +1,3 @@
 # {{projectName}}
 
-Generated with **OpenAI-Internal-Copilot** 🚀 
+Generated with **StackStart** 🚀 
